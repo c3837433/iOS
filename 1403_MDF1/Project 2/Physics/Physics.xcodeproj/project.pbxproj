@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB0FBCC18CAD13E00D016C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBCB18CAD13E00D016C6 /* Foundation.framework */; };
+		0EB0FBCE18CAD13E00D016C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBCD18CAD13E00D016C6 /* CoreGraphics.framework */; };
+		0EB0FBD018CAD13E00D016C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBCF18CAD13E00D016C6 /* UIKit.framework */; };
+		0EB0FBD618CAD13E00D016C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FBD418CAD13E00D016C6 /* InfoPlist.strings */; };
+		0EB0FBD818CAD13E00D016C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FBD718CAD13E00D016C6 /* main.m */; };
+		0EB0FBDC18CAD13E00D016C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FBDB18CAD13E00D016C6 /* AppDelegate.m */; };
+		0EB0FBDF18CAD13E00D016C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FBDD18CAD13E00D016C6 /* Main.storyboard */; };
+		0EB0FBE218CAD13F00D016C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FBE118CAD13F00D016C6 /* ViewController.m */; };
+		0EB0FBE418CAD13F00D016C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FBE318CAD13F00D016C6 /* Images.xcassets */; };
+		0EB0FBEB18CAD13F00D016C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBEA18CAD13F00D016C6 /* XCTest.framework */; };
+		0EB0FBEC18CAD13F00D016C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBCB18CAD13E00D016C6 /* Foundation.framework */; };
+		0EB0FBED18CAD13F00D016C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FBCF18CAD13E00D016C6 /* UIKit.framework */; };
+		0EB0FBF518CAD13F00D016C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FBF318CAD13F00D016C6 /* InfoPlist.strings */; };
+		0EB0FBF718CAD13F00D016C6 /* PhysicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FBF618CAD13F00D016C6 /* PhysicsTests.m */; };
+		0EB0FC1A18CB945000D016C6 /* physic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FC1918CB945000D016C6 /* physic.png */; };
+		0EB0FC1D18CB94F100D016C6 /* branch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FC1B18CB94F100D016C6 /* branch.png */; };
+		0EB0FC1E18CB94F100D016C6 /* research.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FC1C18CB94F100D016C6 /* research.png */; };
+		0EB0FC2118CB97A000D016C6 /* CustomSubjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC2018CB97A000D016C6 /* CustomSubjectCell.m */; };
+		0EB0FC2518CB9AA800D016C6 /* PhysicSubjecsCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC2418CB9AA800D016C6 /* PhysicSubjecsCustomClass.m */; };
+		0EB0FC2818CB9BCE00D016C6 /* ResearchCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC2718CB9BCE00D016C6 /* ResearchCustomClass.m */; };
+		0EB0FC2B18CBA1AE00D016C6 /* CustomResearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC2A18CBA1AE00D016C6 /* CustomResearchCell.m */; };
+		0EB0FC3018CBB91C00D016C6 /* SubjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC2F18CBB91C00D016C6 /* SubjectDetailViewController.m */; };
+		0EB0FC7B18CBCAB000D016C6 /* ResearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC7A18CBCAB000D016C6 /* ResearchViewController.m */; };
+		0EB0FC7E18CBD36600D016C6 /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC7D18CBD36600D016C6 /* SubjectViewController.m */; };
+		0EB0FC8118CBD9CD00D016C6 /* ResearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FC8018CBD9CD00D016C6 /* ResearchDetailViewController.m */; };
+		0EC9A6A518D0F615006E5FC1 /* weaveBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC9A6A318D0F615006E5FC1 /* weaveBG.png */; };
+		0EE8A8C418CC036000AA2CE4 /* ResearchUrlWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8A8C318CC036000AA2CE4 /* ResearchUrlWebViewController.m */; };
+		0EE8A8E218CD8D9B00AA2CE4 /* atom.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8CE18CD8D9B00AA2CE4 /* atom.png */; };
+		0EE8A8E318CD8D9B00AA2CE4 /* element.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8CF18CD8D9B00AA2CE4 /* element.png */; };
+		0EE8A8E418CD8D9B00AA2CE4 /* energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D018CD8D9B00AA2CE4 /* energy.png */; };
+		0EE8A8E518CD8D9B00AA2CE4 /* force.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D118CD8D9B00AA2CE4 /* force.png */; };
+		0EE8A8E618CD8D9B00AA2CE4 /* frequency.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D218CD8D9B00AA2CE4 /* frequency.png */; };
+		0EE8A8E718CD8D9B00AA2CE4 /* friction.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D318CD8D9B00AA2CE4 /* friction.png */; };
+		0EE8A8E818CD8D9B00AA2CE4 /* gravity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D418CD8D9B00AA2CE4 /* gravity.png */; };
+		0EE8A8E918CD8D9B00AA2CE4 /* heat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D518CD8D9B00AA2CE4 /* heat.png */; };
+		0EE8A8EA18CD8D9B00AA2CE4 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D618CD8D9B00AA2CE4 /* light.png */; };
+		0EE8A8EB18CD8D9B00AA2CE4 /* lightning.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D718CD8D9B00AA2CE4 /* lightning.png */; };
+		0EE8A8EC18CD8D9B00AA2CE4 /* magnetic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D818CD8D9B00AA2CE4 /* magnetic.png */; };
+		0EE8A8ED18CD8D9B00AA2CE4 /* matter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8D918CD8D9B00AA2CE4 /* matter.png */; };
+		0EE8A8EE18CD8D9B00AA2CE4 /* mechanic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DA18CD8D9B00AA2CE4 /* mechanic.png */; };
+		0EE8A8EF18CD8D9B00AA2CE4 /* momentum.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DB18CD8D9B00AA2CE4 /* momentum.png */; };
+		0EE8A8F018CD8D9B00AA2CE4 /* motion.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DC18CD8D9B00AA2CE4 /* motion.png */; };
+		0EE8A8F118CD8D9B00AA2CE4 /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DD18CD8D9B00AA2CE4 /* newton.png */; };
+		0EE8A8F218CD8D9B00AA2CE4 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DE18CD8D9B00AA2CE4 /* sound.png */; };
+		0EE8A8F318CD8D9B00AA2CE4 /* statesOfMatter.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8DF18CD8D9B00AA2CE4 /* statesOfMatter.png */; };
+		0EE8A8F418CD8D9B00AA2CE4 /* work.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8E018CD8D9B00AA2CE4 /* work.png */; };
+		0EE8A8F518CD8D9B00AA2CE4 /* xray.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8A8E118CD8D9B00AA2CE4 /* xray.png */; };
+		0EE8A8F918CEC2EF00AA2CE4 /* BranchesCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8A8F818CEC2EF00AA2CE4 /* BranchesCustomClass.m */; };
+		0EE8A8FE18CEE74500AA2CE4 /* SubjectExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8A8FD18CEE74500AA2CE4 /* SubjectExampleViewController.m */; };
+		0EE8A90218D0050D00AA2CE4 /* SubjectFormulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8A90118D0050D00AA2CE4 /* SubjectFormulaViewController.m */; };
+		0EFC9F3518D10D2500EDCCBC /* blueWeaveBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFC9F3418D10D2500EDCCBC /* blueWeaveBG.png */; };
+		0EFC9F3718D1543400EDCCBC /* weaveBW.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFC9F3618D1543400EDCCBC /* weaveBW.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EB0FBEE18CAD13F00D016C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EB0FBC018CAD13E00D016C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EB0FBC718CAD13E00D016C6;
+			remoteInfo = Physics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB0FBC818CAD13E00D016C6 /* Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Physics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB0FBCB18CAD13E00D016C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EB0FBCD18CAD13E00D016C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EB0FBCF18CAD13E00D016C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EB0FBD318CAD13E00D016C6 /* Physics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Physics-Info.plist"; sourceTree = "<group>"; };
+		0EB0FBD518CAD13E00D016C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EB0FBD718CAD13E00D016C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EB0FBD918CAD13E00D016C6 /* Physics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Physics-Prefix.pch"; sourceTree = "<group>"; };
+		0EB0FBDA18CAD13E00D016C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EB0FBDB18CAD13E00D016C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EB0FBDE18CAD13E00D016C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EB0FBE018CAD13E00D016C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EB0FBE118CAD13F00D016C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EB0FBE318CAD13F00D016C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0EB0FBE918CAD13F00D016C6 /* PhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB0FBEA18CAD13F00D016C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0EB0FBF218CAD13F00D016C6 /* PhysicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsTests-Info.plist"; sourceTree = "<group>"; };
+		0EB0FBF418CAD13F00D016C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EB0FBF618CAD13F00D016C6 /* PhysicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsTests.m; sourceTree = "<group>"; };
+		0EB0FC1918CB945000D016C6 /* physic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = physic.png; path = "Physics/Images.xcassets/Icons Images/physic.png"; sourceTree = "<group>"; };
+		0EB0FC1B18CB94F100D016C6 /* branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = branch.png; path = "Physics/Images.xcassets/Icons Images/branch.png"; sourceTree = "<group>"; };
+		0EB0FC1C18CB94F100D016C6 /* research.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = research.png; path = "Physics/Images.xcassets/Icons Images/research.png"; sourceTree = "<group>"; };
+		0EB0FC1F18CB97A000D016C6 /* CustomSubjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSubjectCell.h; sourceTree = "<group>"; };
+		0EB0FC2018CB97A000D016C6 /* CustomSubjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSubjectCell.m; sourceTree = "<group>"; };
+		0EB0FC2318CB9AA800D016C6 /* PhysicSubjecsCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicSubjecsCustomClass.h; sourceTree = "<group>"; };
+		0EB0FC2418CB9AA800D016C6 /* PhysicSubjecsCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicSubjecsCustomClass.m; sourceTree = "<group>"; };
+		0EB0FC2618CB9BCE00D016C6 /* ResearchCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchCustomClass.h; sourceTree = "<group>"; };
+		0EB0FC2718CB9BCE00D016C6 /* ResearchCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchCustomClass.m; sourceTree = "<group>"; };
+		0EB0FC2918CBA1AE00D016C6 /* CustomResearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomResearchCell.h; path = Physics/CustomResearchCell.h; sourceTree = "<group>"; };
+		0EB0FC2A18CBA1AE00D016C6 /* CustomResearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomResearchCell.m; path = Physics/CustomResearchCell.m; sourceTree = "<group>"; };
+		0EB0FC2E18CBB91C00D016C6 /* SubjectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectDetailViewController.h; sourceTree = "<group>"; };
+		0EB0FC2F18CBB91C00D016C6 /* SubjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectDetailViewController.m; sourceTree = "<group>"; };
+		0EB0FC7918CBCAB000D016C6 /* ResearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResearchViewController.h; path = Physics/ResearchViewController.h; sourceTree = "<group>"; };
+		0EB0FC7A18CBCAB000D016C6 /* ResearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResearchViewController.m; path = Physics/ResearchViewController.m; sourceTree = "<group>"; };
+		0EB0FC7C18CBD36600D016C6 /* SubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
+		0EB0FC7D18CBD36600D016C6 /* SubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		0EB0FC7F18CBD9CD00D016C6 /* ResearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchDetailViewController.h; sourceTree = "<group>"; };
+		0EB0FC8018CBD9CD00D016C6 /* ResearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchDetailViewController.m; sourceTree = "<group>"; };
+		0EC9A6A318D0F615006E5FC1 /* weaveBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weaveBG.png; path = "Physics/Images.xcassets/Icons Images/weaveBG.png"; sourceTree = "<group>"; };
+		0EE8A8C218CC036000AA2CE4 /* ResearchUrlWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchUrlWebViewController.h; sourceTree = "<group>"; };
+		0EE8A8C318CC036000AA2CE4 /* ResearchUrlWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResearchUrlWebViewController.m; sourceTree = "<group>"; };
+		0EE8A8CE18CD8D9B00AA2CE4 /* atom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atom.png; path = "Physics/Images.xcassets/Icons Images/atom.png"; sourceTree = "<group>"; };
+		0EE8A8CF18CD8D9B00AA2CE4 /* element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = element.png; path = "Physics/Images.xcassets/Icons Images/element.png"; sourceTree = "<group>"; };
+		0EE8A8D018CD8D9B00AA2CE4 /* energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = energy.png; path = "Physics/Images.xcassets/Icons Images/energy.png"; sourceTree = "<group>"; };
+		0EE8A8D118CD8D9B00AA2CE4 /* force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = force.png; path = "Physics/Images.xcassets/Icons Images/force.png"; sourceTree = "<group>"; };
+		0EE8A8D218CD8D9B00AA2CE4 /* frequency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frequency.png; path = "Physics/Images.xcassets/Icons Images/frequency.png"; sourceTree = "<group>"; };
+		0EE8A8D318CD8D9B00AA2CE4 /* friction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friction.png; path = "Physics/Images.xcassets/Icons Images/friction.png"; sourceTree = "<group>"; };
+		0EE8A8D418CD8D9B00AA2CE4 /* gravity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gravity.png; path = "Physics/Images.xcassets/Icons Images/gravity.png"; sourceTree = "<group>"; };
+		0EE8A8D518CD8D9B00AA2CE4 /* heat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heat.png; path = "Physics/Images.xcassets/Icons Images/heat.png"; sourceTree = "<group>"; };
+		0EE8A8D618CD8D9B00AA2CE4 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = light.png; path = "Physics/Images.xcassets/Icons Images/light.png"; sourceTree = "<group>"; };
+		0EE8A8D718CD8D9B00AA2CE4 /* lightning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightning.png; path = "Physics/Images.xcassets/Icons Images/lightning.png"; sourceTree = "<group>"; };
+		0EE8A8D818CD8D9B00AA2CE4 /* magnetic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnetic.png; path = "Physics/Images.xcassets/Icons Images/magnetic.png"; sourceTree = "<group>"; };
+		0EE8A8D918CD8D9B00AA2CE4 /* matter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = matter.png; path = "Physics/Images.xcassets/Icons Images/matter.png"; sourceTree = "<group>"; };
+		0EE8A8DA18CD8D9B00AA2CE4 /* mechanic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mechanic.png; path = "Physics/Images.xcassets/Icons Images/mechanic.png"; sourceTree = "<group>"; };
+		0EE8A8DB18CD8D9B00AA2CE4 /* momentum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = momentum.png; path = "Physics/Images.xcassets/Icons Images/momentum.png"; sourceTree = "<group>"; };
+		0EE8A8DC18CD8D9B00AA2CE4 /* motion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = motion.png; path = "Physics/Images.xcassets/Icons Images/motion.png"; sourceTree = "<group>"; };
+		0EE8A8DD18CD8D9B00AA2CE4 /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = "Physics/Images.xcassets/Icons Images/newton.png"; sourceTree = "<group>"; };
+		0EE8A8DE18CD8D9B00AA2CE4 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound.png; path = "Physics/Images.xcassets/Icons Images/sound.png"; sourceTree = "<group>"; };
+		0EE8A8DF18CD8D9B00AA2CE4 /* statesOfMatter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statesOfMatter.png; path = "Physics/Images.xcassets/Icons Images/statesOfMatter.png"; sourceTree = "<group>"; };
+		0EE8A8E018CD8D9B00AA2CE4 /* work.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = work.png; path = "Physics/Images.xcassets/Icons Images/work.png"; sourceTree = "<group>"; };
+		0EE8A8E118CD8D9B00AA2CE4 /* xray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xray.png; path = "Physics/Images.xcassets/Icons Images/xray.png"; sourceTree = "<group>"; };
+		0EE8A8F718CEC2EF00AA2CE4 /* BranchesCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BranchesCustomClass.h; path = ../BranchesCustomClass.h; sourceTree = "<group>"; };
+		0EE8A8F818CEC2EF00AA2CE4 /* BranchesCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BranchesCustomClass.m; path = ../BranchesCustomClass.m; sourceTree = "<group>"; };
+		0EE8A8FC18CEE74500AA2CE4 /* SubjectExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectExampleViewController.h; sourceTree = "<group>"; };
+		0EE8A8FD18CEE74500AA2CE4 /* SubjectExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectExampleViewController.m; sourceTree = "<group>"; };
+		0EE8A90018D0050D00AA2CE4 /* SubjectFormulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectFormulaViewController.h; sourceTree = "<group>"; };
+		0EE8A90118D0050D00AA2CE4 /* SubjectFormulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectFormulaViewController.m; sourceTree = "<group>"; };
+		0EFC9F3418D10D2500EDCCBC /* blueWeaveBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueWeaveBG.png; path = "Physics/Images.xcassets/Icons Images/blueWeaveBG.png"; sourceTree = "<group>"; };
+		0EFC9F3618D1543400EDCCBC /* weaveBW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weaveBW.png; path = "Physics/Images.xcassets/Icons Images/weaveBW.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB0FBC518CAD13E00D016C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FBCE18CAD13E00D016C6 /* CoreGraphics.framework in Frameworks */,
+				0EB0FBD018CAD13E00D016C6 /* UIKit.framework in Frameworks */,
+				0EB0FBCC18CAD13E00D016C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB0FBE618CAD13F00D016C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FBEB18CAD13F00D016C6 /* XCTest.framework in Frameworks */,
+				0EB0FBED18CAD13F00D016C6 /* UIKit.framework in Frameworks */,
+				0EB0FBEC18CAD13F00D016C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB0FBBF18CAD13E00D016C6 = {
+			isa = PBXGroup;
+			children = (
+				0EB0FC2D18CBA27E00D016C6 /* Custom Objects */,
+				0EB0FC3418CBC14A00D016C6 /* View Controllers */,
+				0EB0FC2C18CBA1D100D016C6 /* Custom Cells */,
+				0EB0FC0618CB858B00D016C6 /* Images */,
+				0EB0FBD118CAD13E00D016C6 /* Physics */,
+				0EB0FBF018CAD13F00D016C6 /* PhysicsTests */,
+				0EB0FBCA18CAD13E00D016C6 /* Frameworks */,
+				0EB0FBC918CAD13E00D016C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EB0FBC918CAD13E00D016C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBC818CAD13E00D016C6 /* Physics.app */,
+				0EB0FBE918CAD13F00D016C6 /* PhysicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB0FBCA18CAD13E00D016C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBCB18CAD13E00D016C6 /* Foundation.framework */,
+				0EB0FBCD18CAD13E00D016C6 /* CoreGraphics.framework */,
+				0EB0FBCF18CAD13E00D016C6 /* UIKit.framework */,
+				0EB0FBEA18CAD13F00D016C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EB0FBD118CAD13E00D016C6 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBDA18CAD13E00D016C6 /* AppDelegate.h */,
+				0EB0FBDB18CAD13E00D016C6 /* AppDelegate.m */,
+				0EB0FBDD18CAD13E00D016C6 /* Main.storyboard */,
+				0EB0FBE018CAD13E00D016C6 /* ViewController.h */,
+				0EB0FBE118CAD13F00D016C6 /* ViewController.m */,
+				0EB0FBE318CAD13F00D016C6 /* Images.xcassets */,
+				0EB0FBD218CAD13E00D016C6 /* Supporting Files */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		0EB0FBD218CAD13E00D016C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBD318CAD13E00D016C6 /* Physics-Info.plist */,
+				0EB0FBD418CAD13E00D016C6 /* InfoPlist.strings */,
+				0EB0FBD718CAD13E00D016C6 /* main.m */,
+				0EB0FBD918CAD13E00D016C6 /* Physics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB0FBF018CAD13F00D016C6 /* PhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBF618CAD13F00D016C6 /* PhysicsTests.m */,
+				0EB0FBF118CAD13F00D016C6 /* Supporting Files */,
+			);
+			path = PhysicsTests;
+			sourceTree = "<group>";
+		};
+		0EB0FBF118CAD13F00D016C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FBF218CAD13F00D016C6 /* PhysicsTests-Info.plist */,
+				0EB0FBF318CAD13F00D016C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB0FC0618CB858B00D016C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A8F618CD8DAF00AA2CE4 /* Subject Images */,
+				0EE8A8CD18CD8D6400AA2CE4 /* Backgrounds */,
+				0EE8A8CC18CD8D5300AA2CE4 /* Tab Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0EB0FC2C18CBA1D100D016C6 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FC2918CBA1AE00D016C6 /* CustomResearchCell.h */,
+				0EB0FC2A18CBA1AE00D016C6 /* CustomResearchCell.m */,
+				0EB0FC1F18CB97A000D016C6 /* CustomSubjectCell.h */,
+				0EB0FC2018CB97A000D016C6 /* CustomSubjectCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		0EB0FC2D18CBA27E00D016C6 /* Custom Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A8F718CEC2EF00AA2CE4 /* BranchesCustomClass.h */,
+				0EE8A8F818CEC2EF00AA2CE4 /* BranchesCustomClass.m */,
+				0EB0FC2618CB9BCE00D016C6 /* ResearchCustomClass.h */,
+				0EB0FC2718CB9BCE00D016C6 /* ResearchCustomClass.m */,
+				0EB0FC2318CB9AA800D016C6 /* PhysicSubjecsCustomClass.h */,
+				0EB0FC2418CB9AA800D016C6 /* PhysicSubjecsCustomClass.m */,
+			);
+			name = "Custom Objects";
+			path = Physics;
+			sourceTree = "<group>";
+		};
+		0EB0FC3418CBC14A00D016C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A8FF18CEE75500AA2CE4 /* Physics Tab */,
+				0EE8A8C518CC234F00AA2CE4 /* Research Tab */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0EE8A8C518CC234F00AA2CE4 /* Research Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A8C218CC036000AA2CE4 /* ResearchUrlWebViewController.h */,
+				0EE8A8C318CC036000AA2CE4 /* ResearchUrlWebViewController.m */,
+				0EB0FC7918CBCAB000D016C6 /* ResearchViewController.h */,
+				0EB0FC7A18CBCAB000D016C6 /* ResearchViewController.m */,
+				0EB0FC7F18CBD9CD00D016C6 /* ResearchDetailViewController.h */,
+				0EB0FC8018CBD9CD00D016C6 /* ResearchDetailViewController.m */,
+			);
+			name = "Research Tab";
+			sourceTree = "<group>";
+		};
+		0EE8A8CC18CD8D5300AA2CE4 /* Tab Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FC1B18CB94F100D016C6 /* branch.png */,
+				0EB0FC1C18CB94F100D016C6 /* research.png */,
+				0EB0FC1918CB945000D016C6 /* physic.png */,
+			);
+			name = "Tab Icons";
+			sourceTree = "<group>";
+		};
+		0EE8A8CD18CD8D6400AA2CE4 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				0EFC9F3618D1543400EDCCBC /* weaveBW.png */,
+				0EC9A6A318D0F615006E5FC1 /* weaveBG.png */,
+				0EFC9F3418D10D2500EDCCBC /* blueWeaveBG.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		0EE8A8F618CD8DAF00AA2CE4 /* Subject Images */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A8CE18CD8D9B00AA2CE4 /* atom.png */,
+				0EE8A8CF18CD8D9B00AA2CE4 /* element.png */,
+				0EE8A8D018CD8D9B00AA2CE4 /* energy.png */,
+				0EE8A8D118CD8D9B00AA2CE4 /* force.png */,
+				0EE8A8D218CD8D9B00AA2CE4 /* frequency.png */,
+				0EE8A8D318CD8D9B00AA2CE4 /* friction.png */,
+				0EE8A8D418CD8D9B00AA2CE4 /* gravity.png */,
+				0EE8A8D518CD8D9B00AA2CE4 /* heat.png */,
+				0EE8A8D618CD8D9B00AA2CE4 /* light.png */,
+				0EE8A8D718CD8D9B00AA2CE4 /* lightning.png */,
+				0EE8A8D818CD8D9B00AA2CE4 /* magnetic.png */,
+				0EE8A8D918CD8D9B00AA2CE4 /* matter.png */,
+				0EE8A8DA18CD8D9B00AA2CE4 /* mechanic.png */,
+				0EE8A8DB18CD8D9B00AA2CE4 /* momentum.png */,
+				0EE8A8DC18CD8D9B00AA2CE4 /* motion.png */,
+				0EE8A8DD18CD8D9B00AA2CE4 /* newton.png */,
+				0EE8A8DE18CD8D9B00AA2CE4 /* sound.png */,
+				0EE8A8DF18CD8D9B00AA2CE4 /* statesOfMatter.png */,
+				0EE8A8E018CD8D9B00AA2CE4 /* work.png */,
+				0EE8A8E118CD8D9B00AA2CE4 /* xray.png */,
+			);
+			name = "Subject Images";
+			sourceTree = "<group>";
+		};
+		0EE8A8FF18CEE75500AA2CE4 /* Physics Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8A90018D0050D00AA2CE4 /* SubjectFormulaViewController.h */,
+				0EE8A90118D0050D00AA2CE4 /* SubjectFormulaViewController.m */,
+				0EE8A8FC18CEE74500AA2CE4 /* SubjectExampleViewController.h */,
+				0EE8A8FD18CEE74500AA2CE4 /* SubjectExampleViewController.m */,
+				0EB0FC7C18CBD36600D016C6 /* SubjectViewController.h */,
+				0EB0FC7D18CBD36600D016C6 /* SubjectViewController.m */,
+				0EB0FC2E18CBB91C00D016C6 /* SubjectDetailViewController.h */,
+				0EB0FC2F18CBB91C00D016C6 /* SubjectDetailViewController.m */,
+			);
+			name = "Physics Tab";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB0FBC718CAD13E00D016C6 /* Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB0FBFA18CAD13F00D016C6 /* Build configuration list for PBXNativeTarget "Physics" */;
+			buildPhases = (
+				0EB0FBC418CAD13E00D016C6 /* Sources */,
+				0EB0FBC518CAD13E00D016C6 /* Frameworks */,
+				0EB0FBC618CAD13E00D016C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physics;
+			productName = Physics;
+			productReference = 0EB0FBC818CAD13E00D016C6 /* Physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EB0FBE818CAD13F00D016C6 /* PhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB0FBFD18CAD13F00D016C6 /* Build configuration list for PBXNativeTarget "PhysicsTests" */;
+			buildPhases = (
+				0EB0FBE518CAD13F00D016C6 /* Sources */,
+				0EB0FBE618CAD13F00D016C6 /* Frameworks */,
+				0EB0FBE718CAD13F00D016C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EB0FBEF18CAD13F00D016C6 /* PBXTargetDependency */,
+			);
+			name = PhysicsTests;
+			productName = PhysicsTests;
+			productReference = 0EB0FBE918CAD13F00D016C6 /* PhysicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB0FBC018CAD13E00D016C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Angela Smith";
+				TargetAttributes = {
+					0EB0FBE818CAD13F00D016C6 = {
+						TestTargetID = 0EB0FBC718CAD13E00D016C6;
+					};
+				};
+			};
+			buildConfigurationList = 0EB0FBC318CAD13E00D016C6 /* Build configuration list for PBXProject "Physics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EB0FBBF18CAD13E00D016C6;
+			productRefGroup = 0EB0FBC918CAD13E00D016C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB0FBC718CAD13E00D016C6 /* Physics */,
+				0EB0FBE818CAD13F00D016C6 /* PhysicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB0FBC618CAD13E00D016C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE8A8E618CD8D9B00AA2CE4 /* frequency.png in Resources */,
+				0EE8A8EA18CD8D9B00AA2CE4 /* light.png in Resources */,
+				0EE8A8F218CD8D9B00AA2CE4 /* sound.png in Resources */,
+				0EE8A8E718CD8D9B00AA2CE4 /* friction.png in Resources */,
+				0EB0FC1E18CB94F100D016C6 /* research.png in Resources */,
+				0EE8A8F118CD8D9B00AA2CE4 /* newton.png in Resources */,
+				0EE8A8E818CD8D9B00AA2CE4 /* gravity.png in Resources */,
+				0EE8A8EF18CD8D9B00AA2CE4 /* momentum.png in Resources */,
+				0EE8A8F418CD8D9B00AA2CE4 /* work.png in Resources */,
+				0EE8A8EC18CD8D9B00AA2CE4 /* magnetic.png in Resources */,
+				0EB0FBE418CAD13F00D016C6 /* Images.xcassets in Resources */,
+				0EE8A8F318CD8D9B00AA2CE4 /* statesOfMatter.png in Resources */,
+				0EB0FC1D18CB94F100D016C6 /* branch.png in Resources */,
+				0EE8A8F518CD8D9B00AA2CE4 /* xray.png in Resources */,
+				0EE8A8F018CD8D9B00AA2CE4 /* motion.png in Resources */,
+				0EE8A8ED18CD8D9B00AA2CE4 /* matter.png in Resources */,
+				0EB0FC1A18CB945000D016C6 /* physic.png in Resources */,
+				0EE8A8E318CD8D9B00AA2CE4 /* element.png in Resources */,
+				0EE8A8E418CD8D9B00AA2CE4 /* energy.png in Resources */,
+				0EE8A8E218CD8D9B00AA2CE4 /* atom.png in Resources */,
+				0EE8A8E518CD8D9B00AA2CE4 /* force.png in Resources */,
+				0EB0FBD618CAD13E00D016C6 /* InfoPlist.strings in Resources */,
+				0EE8A8EB18CD8D9B00AA2CE4 /* lightning.png in Resources */,
+				0EFC9F3718D1543400EDCCBC /* weaveBW.png in Resources */,
+				0EB0FBDF18CAD13E00D016C6 /* Main.storyboard in Resources */,
+				0EC9A6A518D0F615006E5FC1 /* weaveBG.png in Resources */,
+				0EE8A8EE18CD8D9B00AA2CE4 /* mechanic.png in Resources */,
+				0EE8A8E918CD8D9B00AA2CE4 /* heat.png in Resources */,
+				0EFC9F3518D10D2500EDCCBC /* blueWeaveBG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB0FBE718CAD13F00D016C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FBF518CAD13F00D016C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB0FBC418CAD13E00D016C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FBE218CAD13F00D016C6 /* ViewController.m in Sources */,
+				0EB0FC2518CB9AA800D016C6 /* PhysicSubjecsCustomClass.m in Sources */,
+				0EE8A8C418CC036000AA2CE4 /* ResearchUrlWebViewController.m in Sources */,
+				0EE8A90218D0050D00AA2CE4 /* SubjectFormulaViewController.m in Sources */,
+				0EB0FC3018CBB91C00D016C6 /* SubjectDetailViewController.m in Sources */,
+				0EB0FC7B18CBCAB000D016C6 /* ResearchViewController.m in Sources */,
+				0EB0FC2818CB9BCE00D016C6 /* ResearchCustomClass.m in Sources */,
+				0EE8A8FE18CEE74500AA2CE4 /* SubjectExampleViewController.m in Sources */,
+				0EB0FC2118CB97A000D016C6 /* CustomSubjectCell.m in Sources */,
+				0EB0FBDC18CAD13E00D016C6 /* AppDelegate.m in Sources */,
+				0EB0FC8118CBD9CD00D016C6 /* ResearchDetailViewController.m in Sources */,
+				0EE8A8F918CEC2EF00AA2CE4 /* BranchesCustomClass.m in Sources */,
+				0EB0FC2B18CBA1AE00D016C6 /* CustomResearchCell.m in Sources */,
+				0EB0FBD818CAD13E00D016C6 /* main.m in Sources */,
+				0EB0FC7E18CBD36600D016C6 /* SubjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EB0FBE518CAD13F00D016C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FBF718CAD13F00D016C6 /* PhysicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EB0FBEF18CAD13F00D016C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EB0FBC718CAD13E00D016C6 /* Physics */;
+			targetProxy = 0EB0FBEE18CAD13F00D016C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EB0FBD418CAD13E00D016C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB0FBD518CAD13E00D016C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EB0FBDD18CAD13E00D016C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB0FBDE18CAD13E00D016C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EB0FBF318CAD13F00D016C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB0FBF418CAD13F00D016C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EB0FBF818CAD13F00D016C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EB0FBF918CAD13F00D016C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EB0FBFB18CAD13F00D016C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "Physics/Physics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EB0FBFC18CAD13F00D016C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "Physics/Physics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EB0FBFE18CAD13F00D016C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0EB0FBFF18CAD13F00D016C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Physics.app/Physics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Physics/Physics-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsTests/PhysicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB0FBC318CAD13E00D016C6 /* Build configuration list for PBXProject "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FBF818CAD13F00D016C6 /* Debug */,
+				0EB0FBF918CAD13F00D016C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB0FBFA18CAD13F00D016C6 /* Build configuration list for PBXNativeTarget "Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FBFB18CAD13F00D016C6 /* Debug */,
+				0EB0FBFC18CAD13F00D016C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB0FBFD18CAD13F00D016C6 /* Build configuration list for PBXNativeTarget "PhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FBFE18CAD13F00D016C6 /* Debug */,
+				0EB0FBFF18CAD13F00D016C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB0FBC018CAD13E00D016C6 /* Project object */;
+}
